@@ -191,7 +191,14 @@ namespace Scrambler_Unscrambler
                         int encryption = integer_read("Enter levels of encryption (1-3): ");
                         string key = string_read("Enter key: ");
                         string extension = string_read("File extension (eg .exe): ");
-                        decrypting(unchop_shop(location), location, encryption, key, extension);
+                        if (File.Exists(location))
+                        {
+                            decrypting(unchop_shop(location), location, encryption, key, extension);
+                        }
+                        else
+                        {
+                            Console.WriteLine("File doesn't exist");
+                        }
                         break;
                     case "3": // Exit
                         Environment.Exit(0);
