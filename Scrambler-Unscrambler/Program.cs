@@ -2,7 +2,6 @@
  * WRITTEN BY: Millen Boekel
  * USING: Snake case naming convention
  * PURPOSE: To encrypt, decrypt and fracture a file for transit or general security
- * DATE FINISHED: 11/10/2019
  * 
  * Copyright (c) 2019 Millen Boekel
  * Released under the MIT licence: http://opensource.org/licenses/mit-license
