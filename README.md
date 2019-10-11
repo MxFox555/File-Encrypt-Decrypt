@@ -5,7 +5,7 @@ A simple file encryption and decryption script
 **How does it work?**
 This program consits of two main parts
 
-*Encryption*
+## *Encryption*
 If you choose to encrypt it will ask you for:
   - The path of the file
   - The encryption key
@@ -14,7 +14,7 @@ If you choose to encrypt it will ask you for:
  
 After which it will output a zip of the encrypted file
 
-*Decryption*
+## *Decryption*
 If you choose to decrypt it will ask you for:
   - The zip file location
   - The levels of encryption
